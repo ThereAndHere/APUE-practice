@@ -13,7 +13,7 @@
 
 void err_msg(const char* msg)
 {
-	perror("msg");
+	perror(msg);
 	exit(1);
 }
 
